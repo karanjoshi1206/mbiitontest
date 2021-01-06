@@ -28,11 +28,13 @@ body {
 .nav .list li {
   display: inline;
 }
-.nav .list li a,
-.nav .icons i {
+.nav .list li a {
   margin-right: 30px;
   color: black;
   font-weight: 700;
+}
+.iconify {
+  margin-right: 30px;
 }
 .nav .list li a:hover {
   color: crimson;
@@ -97,10 +99,12 @@ section {
 .ham {
   display: none;
 }
-.fa {
-  font-weight: 900;
-}
+
 @media (max-width: 990px) {
+  .logo img {
+    height: 30px;
+    width: 100px;
+  }
   .ham {
     display: block;
   }
@@ -144,10 +148,10 @@ section {
     padding: 20px;
   }
   .nav {
-    padding: 30px;
+    padding: 10px;
   }
-  .nav .list li a,
-  .nav .icons i {
+
+  .iconify {
     margin-right: 20px;
   }
   .home {
@@ -162,5 +166,8 @@ section {
   }
   .homeimages {
     height: 100%;
+  }
+  .icons {
+    margin-top: 10px;
   }
 }
